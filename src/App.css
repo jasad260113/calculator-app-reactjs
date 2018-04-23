@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.calculator{
+  width:290px;
+  height:458px;
+  background-color:black;
+  margin: 0 auto;
+  margin-top:20px;
+}
+
+.screen{
+  width: 270px;
+  height:40px;
+  color:#fff;
+  font-size:30px;
+  padding:10px;
+  text-align:right;
+}
+
+.buttons button{
+  margin:3px;
+  width:65px;
+  height:60px;
+  background-color: #393939;
+  border:0px;
+  font-size:20px;
+  outline:none;
+}
+
+button.power {
+  background-color: green;
+  width: 90%;
+}
+
+.buttons button.number{
+   background-color: #1f1f1f;
+}
+
+.buttons button.equal{
+   background-color: #e51400;
+   height: 61px;
+   width: 135px;
+}
+
+.buttons button.zero{
+   width:136px;
+}
+
+.buttons button:first-child{
+  margin-left:5px;
+}
+.buttons button:last-child{
+  margin-right:5px;
+}
+
+.buttons button:active {
+  background: #f2471e;
+}
+
+.by{
+  text-align:center;
+  margin:0 auto;
+  font-size:18px;
+  color: #1f1f1f;
+}
