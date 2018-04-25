@@ -3,10 +3,7 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 100px;
-  padding: 10px;
-  color: white;
+
 }
 
 .App-title {
@@ -21,8 +18,9 @@
   width:290px;
   height:458px;
   background-color:black;
-  margin: 0 auto;
-  margin-top:20px;
+  margin: auto;
+  margin-top: 10%;
+  margin-right: 20%;
 }
 
 .screen{
@@ -32,6 +30,7 @@
   font-size:30px;
   padding:10px;
   text-align:right;
+  overflow: hidden;
 }
 
 .buttons button{
@@ -46,7 +45,8 @@
 
 button.power {
   background-color: green;
-  width: 90%;
+  width: 96%;
+  font-weight: bold;
 }
 
 .buttons button.number{
