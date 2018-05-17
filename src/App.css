@@ -14,16 +14,16 @@
   font-size: large;
 }
 
-.calculator{
+.calculator {
   width:290px;
   height:458px;
   background-color:black;
   margin: auto;
   margin-top: 10%;
-  margin-right: 20%;
+  margin-right: 30%;
 }
 
-.screen{
+.screen {
   width: 270px;
   height:40px;
   color:#fff;
@@ -33,50 +33,59 @@
   overflow: hidden;
 }
 
-.buttons button{
+.history {
+  z-index: 1000;
+  position: absolute;
+  text-align: left;
+  width: 150px;
+  padding: 5px;
+  right: 5%;
+}
+
+.buttons button {
   margin:3px;
   width:65px;
   height:60px;
-  background-color: #393939;
+  color: #AAAAAA;
+  background-color: #1f1f1f;
   border:0px;
   font-size:20px;
   outline:none;
 }
 
-button.power {
+.buttons button.power {
   background-color: green;
+  color: #FFFFFF;
   width: 96%;
   font-weight: bold;
 }
 
-.buttons button.number{
+.buttons button.on{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.buttons button.number {
    background-color: #1f1f1f;
 }
 
-.buttons button.equal{
-   background-color: #e51400;
+.buttons button.equal {
+   background-color: #0074D9;
    height: 61px;
    width: 135px;
 }
 
-.buttons button.zero{
+.buttons button.zero {
    width:136px;
 }
 
-.buttons button:first-child{
+.buttons button:first-child {
   margin-left:5px;
 }
-.buttons button:last-child{
+.buttons button:last-child {
   margin-right:5px;
 }
 
 .buttons button:active {
   background: #f2471e;
-}
-
-.by{
-  text-align:center;
-  margin:0 auto;
-  font-size:18px;
-  color: #1f1f1f;
 }
